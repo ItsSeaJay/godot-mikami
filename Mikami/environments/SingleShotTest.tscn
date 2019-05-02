@@ -7,4 +7,8 @@
 
 [node name="TankControlledCharacter" parent="." instance=ExtResource( 1 )]
 script = ExtResource( 2 )
+torque = 1.0
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.883357, 0.468701, 0, -0.468701, 0.883357, 0, 6.293, 9.768 )
 
