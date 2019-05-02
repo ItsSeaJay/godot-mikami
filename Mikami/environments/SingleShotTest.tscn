@@ -1,4 +1,10 @@
-[gd_scene format=2]
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://characters/TankControlledCharacter.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/TankControlledCharacter.gd" type="Script" id=2]
 
 [node name="SingleShotTest" type="Spatial"]
+
+[node name="TankControlledCharacter" parent="." instance=ExtResource( 1 )]
+script = ExtResource( 2 )
 
