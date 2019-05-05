@@ -1,13 +1,11 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=2 format=2]
 
 [ext_resource path="res://characters/TankControlledCharacter.tscn" type="PackedScene" id=1]
-[ext_resource path="res://characters/TankControlledCharacter.gd" type="Script" id=2]
 
 [node name="SingleShotTest" type="Spatial"]
 
 [node name="TankControlledCharacter" parent="." instance=ExtResource( 1 )]
-script = ExtResource( 2 )
-torque = 1.0
+script = null
 
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, 0.883357, 0.468701, 0, -0.468701, 0.883357, 0, 6.293, 9.768 )
