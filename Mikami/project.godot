@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Mikami"
-run/main_scene="res://environments/VisibilityTest.tscn"
+run/main_scene="res://environments/test/director/VisibilityTest.tscn"
 config/icon="res://icon.png"
 
 [input]
