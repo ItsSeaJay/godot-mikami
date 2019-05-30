@@ -57,4 +57,3 @@ material/0 = null
 
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
 transform = Transform( 1, 0, 0, 0, -0.98326, -0.182211, 0, 0.182211, -0.98326, 0, 0, 0 )
-

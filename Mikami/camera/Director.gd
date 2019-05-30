@@ -14,9 +14,6 @@ func _ready():
 			cameras.append(node)
 	
 	cameras.sort_custom(self, "player_distance_sort")
-	
-	for camera in cameras:
-		print(camera.get_name())
 
 func _process(delta):
 	# Cut to the camera closest to the player
